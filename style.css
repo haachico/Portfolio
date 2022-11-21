@@ -1,0 +1,213 @@
+/* colors - 
+primary - #fafd47,
+tint - #22d3ee
+shade - #ecfeff
+      -  hsl(61, 98%, 64%, 0.3)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+/* ************************** */
+/* GENERAL REUSABLE COMPONENENTS */
+/* ************************** */
+
+/* .container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 3rem;
+}  */
+
+/*Why container class not working?*/
+
+.header-section {
+  /* position: fixed;
+  margin-top: 0; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background-color: #22d3ee;
+  height: 10rem;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+/* .main-body {
+  margin-top: 60px;
+} */
+
+.heading {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.navigation-list {
+  padding: 0 1px;
+}
+.navigation {
+  display: flex;
+  list-style: none;
+}
+.nav-link:link,
+.nav-link:visited {
+  font-size: 2rem;
+  padding: 1rem 3rem;
+  font-weight: 700;
+
+  text-decoration: none;
+  color: #555;
+}
+
+.nav-link:active,
+.nav-link:hover {
+  color: black;
+}
+
+.hero-section {
+  justify-content: center;
+  margin-bottom: 10rem;
+}
+.hero-img {
+  max-width: 180rem;
+  height: 40rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.hero-text {
+  font-weight: 600;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.container {
+  /*Why this property not working here?*/
+  /* display: flex;  
+  flex-direction: column;
+  gap: 2rem; */
+  font-size: 3rem;
+  padding: 5rem 7rem;
+  text-align: center;
+  background-color: #ecfeff;
+  margin-bottom: 4rem;
+}
+
+.technologies-container {
+  background-color: hsl(61, 98%, 64%, 0.1);
+}
+
+.projects-container {
+  background-color: #ecfeff;
+}
+
+.blogs-container {
+  background-color: hsl(61, 98%, 64%, 0.1);
+  margin-bottom: 12rem;
+}
+
+.footer-section {
+  /* height: 20%; */
+  background-color: #22d3ee;
+  font-size: 2rem;
+}
+
+.technologies,
+.projects,
+.blogs {
+  margin-bottom: 5rem;
+  color: black;
+}
+
+/* .projects-container { */
+/* display: flex;
+  flex-direction: column;
+  row-gap: 5rem; */
+/* font-size: 3rem; */
+/* padding: 5rem 7rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  background-color: #fefce8;
+} */
+
+/* .projects {
+  margin-bottom: 5rem;
+} */
+
+button {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  height: 4rem;
+  margin-top: 2rem;
+  padding: 1.2rem 3rem;
+  background-color: #fafd47;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #555;
+  border: 1px solid black;
+  justify-content: center;
+  text-decoration: none;
+  /* font-family: "Poppins", sans-serif; */
+}
+
+button:hover {
+  margin-top: 2rem;
+  padding: 1.2rem 3rem;
+  background-color: hsl(61, 98%, 64%, 0.3);
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #555;
+  border: 0.5px solid black;
+  /* font-family: "Poppins", sans-serif; */
+}
+
+/* .blogs-container {
+  font-size: 3rem;
+  padding: 5rem 7rem;
+  text-align: center;
+  background-color: #ecfeff;
+  margin-bottom: 3rem;
+}
+
+.blogs {
+  margin-bottom: 5rem;
+} */
+
+.visit-us:hover {
+  text-decoration: none;
+}
+
+.social-icons {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  justify-content: center; /*Why margin auto not working here like it worked in the button? */
+  cursor: pointer;
+}
+
+.footer-section h2 {
+  margin-bottom: 3rem;
+}
