@@ -17,7 +17,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  line-height: 1;
+  line-height: 1.5;
   font-weight: 400;
   color: #555;
 }
@@ -80,23 +80,6 @@ body {
   color: black;
 }
 
-.hero-section {
-  justify-content: center;
-  margin-bottom: 10rem;
-}
-.hero-img {
-  max-width: 180rem;
-  height: 40rem;
-  display: block;
-  margin: 0 auto;
-}
-
-.hero-text {
-  font-weight: 600;
-  font-size: 5rem;
-  text-align: center;
-}
-
 .container {
   /*Why this property not working here?*/
   /* display: flex;
@@ -104,55 +87,43 @@ body {
   /* align-items: center; */
   font-size: 2rem;
   padding: 5rem 7rem;
-  text-align: center;
+  text-align: left;
   background-color: #ecfeff;
   /* margin-bottom: 4rem; */
 }
 
-.technologies-container {
-  background-color: #f1f5f9;
-}
-
-.projects-container {
+.cli-pj,
+.banana-pj,
+.shakespeare-pj,
+.cashregister-pj,
+.birthdaylucky-pj,
+.triangle-pj,
+.palindrome-pj,
+.stonks-pj {
   background-color: white;
 }
 
-.blogs-container {
-  background-color: #f1f5f9;
-  /* margin-bottom: 12rem; */
-}
-
-.footer-section {
-  /* height: 20%; */
-  background-color: #22d3ee;
-  font-size: 2rem;
-}
-
-.technologies,
-.projects,
-.blogs {
-  font-size: 3.5rem;
-  margin-bottom: 5rem;
+.projects {
+  font-size: 3rem;
+  margin-bottom: 3rem;
   color: black;
 }
 
-/* .projects-container { */
-/* display: flex;
-  flex-direction: column;
-  row-gap: 5rem; */
-/* font-size: 3rem; */
-/* padding: 5rem 7rem;
-  text-align: center;
-  margin-bottom: 3rem;
-  background-color: #fefce8;
-} */
+.pj-text {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
 
-/* .projects {
-  margin-bottom: 5rem;
-} */
+.lang {
+  font-size: 1.8rem;
+}
 
-button {
-  margin: auto;
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+.btn-1 {
+  display: inline;
   display: flex;
   flex-direction: column;
   height: 3rem;
@@ -168,25 +139,33 @@ button {
   /* font-family: "Poppins", sans-serif; */
 }
 
+.btn-2 {
+  display: inline;
+  display: flex;
+  flex-direction: column;
+  height: 3rem;
+  margin-top: 2rem;
+  padding: 1.2rem 2rem;
+  background-color: white;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  border: 2px solid #22d3ee;
+  justify-content: center;
+  text-decoration: none;
+}
+
 button a {
   color: black;
 }
-button:hover {
+
+.btn-1:hover {
+  background-color: white;
+}
+.btn-2:hover {
   background-color: #a5f3fc;
   /* font-family: "Poppins", sans-serif; */
 }
-
-/* .blogs-container {
-  font-size: 3rem;
-  padding: 5rem 7rem;
-  text-align: center;
-  background-color: #ecfeff;
-  margin-bottom: 3rem;
-}
-
-.blogs {
-  margin-bottom: 5rem;
-} */
 
 p a {
   color: #555;
@@ -213,4 +192,8 @@ p a {
 
 .footer-section h2 {
   margin: 2rem 0;
+}
+
+.margin-btm {
+  margin-bottom: 5rem;
 }
