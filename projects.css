@@ -2,7 +2,6 @@
 primary - #fafd47,
 tint - #22d3ee
 shade - #ecfeff
-      -  hsl(61, 98%, 64%, 0.3)
 */
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap");
 * {
@@ -83,14 +82,22 @@ body {
 .container {
   /*Why this property not working here?*/
   /* display: flex;
-  flex-direction: column; */
-  /* align-items: center; */
+  flex-direction: column;
+  align-items: center; */
   font-size: 2rem;
   padding: 5rem 7rem;
   text-align: left;
   background-color: #ecfeff;
+  width: 100%;
   /* margin-bottom: 4rem; */
 }
+
+/* .project-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+} */
 
 .cli-pj,
 .banana-pj,
@@ -101,6 +108,7 @@ body {
 .palindrome-pj,
 .stonks-pj {
   background-color: white;
+  padding: 3rem 6rem;
 }
 
 .projects {

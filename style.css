@@ -188,6 +188,9 @@ button:hover {
   margin-bottom: 5rem;
 } */
 
+p {
+  line-height: 2;
+}
 p a {
   color: #555;
 }
