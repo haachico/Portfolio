@@ -1,6 +1,6 @@
 /* colors - 
-primary - #fafd47,
-tint - #22d3ee
+primary - #22d3ee
+tint - #ecfeff
 shade - #ecfeff
 */
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap");
@@ -19,6 +19,7 @@ body {
   line-height: 1.5;
   font-weight: 400;
   color: #555;
+  background-color: #ecfeff;
 }
 
 /* ************************** */
@@ -107,7 +108,7 @@ body {
 .triangle-pj,
 .palindrome-pj,
 .stonks-pj {
-  background-color: white;
+  background-color: #f1f5f9;
   padding: 3rem 6rem;
 }
 

@@ -2,7 +2,6 @@
 primary - #fafd47,
 tint - #22d3ee
 shade - #ecfeff
-      -  hsl(61, 98%, 64%, 0.3)
 */
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap");
 * {
@@ -17,7 +16,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  line-height: 1;
+  line-height: 1.5;
   font-weight: 400;
   color: #555;
   background-color: #ecfeff;
@@ -81,122 +80,17 @@ body {
   color: black;
 }
 
-.hero-section {
-  justify-content: center;
-  margin-bottom: 10rem;
-}
-.hero-img {
-  max-width: 180rem;
-  height: 40rem;
-  display: block;
-  margin: 0 auto;
-}
-
-.hero-text {
-  font-weight: 600;
-  font-size: 5rem;
-  text-align: center;
-}
-
 .container {
   /*Why this property not working here?*/
   /* display: flex;
-  flex-direction: column; */
-  /* align-items: center; */
+  flex-direction: column;
+  align-items: center; */
   font-size: 2rem;
   padding: 5rem 7rem;
-  text-align: center;
+  text-align: left;
   background-color: #ecfeff;
+  width: 100%;
   /* margin-bottom: 4rem; */
-}
-
-.technologies-container {
-  background-color: #f1f5f9;
-}
-
-.projects-container {
-  background-color: #ecfeff;
-}
-
-.blogs-container {
-  background-color: #f1f5f9;
-  /* margin-bottom: 12rem; */
-}
-
-.footer-section {
-  /* height: 20%; */
-  background-color: #22d3ee;
-  font-size: 2rem;
-}
-
-.technologies,
-.projects,
-.blogs {
-  font-size: 3.5rem;
-  margin-bottom: 5rem;
-  color: black;
-}
-
-/* .projects-container { */
-/* display: flex;
-  flex-direction: column;
-  row-gap: 5rem; */
-/* font-size: 3rem; */
-/* padding: 5rem 7rem;
-  text-align: center;
-  margin-bottom: 3rem;
-  background-color: #fefce8;
-} */
-
-/* .projects {
-  margin-bottom: 5rem;
-} */
-
-button {
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  height: 3rem;
-  margin-top: 2rem;
-  padding: 1.2rem 2rem;
-  background-color: #22d3ee;
-  font-size: 15px;
-  font-weight: 700;
-  cursor: pointer;
-  border: 0.5px solid black;
-  justify-content: center;
-  text-decoration: none;
-  /* font-family: "Poppins", sans-serif; */
-}
-
-button a {
-  color: black;
-}
-button:hover {
-  background-color: #a5f3fc;
-  /* font-family: "Poppins", sans-serif; */
-}
-
-/* .blogs-container {
-  font-size: 3rem;
-  padding: 5rem 7rem;
-  text-align: center;
-  background-color: #ecfeff;
-  margin-bottom: 3rem;
-}
-
-.blogs {
-  margin-bottom: 5rem;
-} */
-
-p {
-  line-height: 2;
-}
-p a {
-  color: #555;
-}
-.visit-us:hover {
-  text-decoration: none;
 }
 
 .social-icons {
@@ -217,4 +111,21 @@ p a {
 
 .footer-section h2 {
   margin: 2rem 0;
+}
+
+.margin-btm {
+  margin-bottom: 5rem;
+}
+
+.read-more {
+  color: darkblue;
+  cursor: pointer;
+}
+
+#check {
+  display: none;
+}
+
+h1 {
+  color: black;
 }
