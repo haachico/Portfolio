@@ -129,3 +129,8 @@ body {
 h1 {
   color: black;
 }
+
+.blogs-container {
+  background-color: #ecfeff;
+  margin: 0 3rem;
+}
