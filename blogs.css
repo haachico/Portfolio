@@ -1,7 +1,7 @@
 /* colors - 
-primary - #fafd47,
-tint - #22d3ee
-shade - #ecfeff
+primary - #22d3ee
+tint - #ecfeff
+shade - #f1f5f9
 */
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap");
 * {
@@ -131,6 +131,6 @@ h1 {
 }
 
 .blogs-container {
-  background-color: #ecfeff;
-  margin: 0 3rem;
+  background-color: #f1f5f9;
+  margin: 3rem;
 }
