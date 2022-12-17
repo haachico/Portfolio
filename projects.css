@@ -3,7 +3,7 @@ primary - #22d3ee
 tint - #ecfeff
 shade - #f1f5f9
 */
-@import url("https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&family=Roboto:ital@0;1&family=Rubik:ital@1&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -107,7 +107,9 @@ body {
 .birthdaylucky-pj,
 .triangle-pj,
 .palindrome-pj,
-.stonks-pj {
+.stonks-pj,
+.animalsInterpretor-pj,
+.booksRec-pj {
   background-color: #f1f5f9;
   padding: 3rem 6rem;
 }
@@ -205,4 +207,8 @@ p a {
 
 .margin-btm {
   margin-bottom: 5rem;
+}
+
+.social-icon a {
+  color: #555;
 }
