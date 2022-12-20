@@ -191,9 +191,9 @@ button:hover {
 p {
   line-height: 2;
 }
-p a {
+/* p a {
   color: #555;
-}
+} */
 .visit-us:hover {
   text-decoration: none;
 }
