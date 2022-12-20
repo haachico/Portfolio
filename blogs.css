@@ -138,3 +138,16 @@ h1 {
 .social-icon a {
   color: #555;
 }
+
+.readmore-btn {
+  padding: 5px 10px;
+  font-weight: 700;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #22d3ee;
+  border: 1px solid black;
+}
+
+.readmore-btn:hover {
+  background-color: #a5f3fc;
+}

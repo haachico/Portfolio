@@ -29,23 +29,29 @@
 
       <p>
         <strong>Let , Const, and Var</strong> are three ways of declaring the
-        variables in Javascript. All are <br />
-        similar except for a few differences. I will talk about...
-        <button class="readmore-btn">
-          <a href="blog1.html" style="text-decoration: none">Read more</a>
-        </button>
-      </p>
-    </div>
-    <div class="blogs-container container">
-      <h1 class="margin-btm">2. Methods of Array.</h1>
+        variables in Javascript. All are similar except for a few differences. I
+        will talk about some simple differences below and will tell which is
+        more advisable to use.
+        <br />
 
-      <p>
-        <strong>Array</strong> is, in simple words, a collection of items. It is
-        a data structure to <br />store multiple elements in a single variables.
-        The list is...
-        <button class="readmore-btn">
-          <a href="blog2.html" style="text-decoration: none">Read more</a>
-        </button>
+        <strong> Let</strong> - Let was introduced in ES6. It's almost similar
+        to Var. It is a modern way of declaring variables the values of which
+        are not fixed—and are likely to change in the future. In other words, we
+        use let for mutating the variables. In Let, hosting is allowed. Let is a block scope. That means, the variable decalraed can be accesssed only within the block ('{}') in which it is declared and within the block of its parent element.<br />
+        <strong> Const</strong> - Const was also introduced in ES6 along with
+        Let. It is also a modern way of declaring the variables. It's used to
+        declare variables the values of which are likely to remain fixed in the
+        future. For eg, Birthyear. We use const when we are sure that values
+        won't change once declared. In Const, hosting is not allowed.  Const is also a block scope. <br />
+        <strong>Var</strong> - Var is old way of declaring variables. That is,
+        prior to ES6, before const and var was introduced. It's pretty similar
+        to Let. In Var, hosting is allowed. Unlike Let and Const, Var is a function scope. That means, the variable declared with var can be acsessed anywhere within the function in which it is declared. <br />
+        <p style="margin-top: 3rem">
+          <strong>Conclusion</strong> - As a best practice, always use const. And if
+          you are sure that the value of a variable is going to change in the future
+          then use Let. It is a good practice to use as little variable mutations as possible
+          because changing variable creates more potential for bugs in the
+          code.</p>
       </p>
     </div>
 
