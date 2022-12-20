@@ -140,6 +140,7 @@ h1 {
 }
 
 .readmore-btn {
+  margin-top: 1.5rem;
   padding: 5px 10px;
   font-weight: 700;
   border-radius: 4px;
