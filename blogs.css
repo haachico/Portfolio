@@ -151,3 +151,6 @@ h1 {
 .readmore-btn:hover {
   background-color: #a5f3fc;
 }
+.readmore-btn a {
+  color: black;
+}

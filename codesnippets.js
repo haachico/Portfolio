@@ -18,4 +18,4 @@ console.log(ascendingOrder); // ---> ['a', 'b', 'c', 'd', 'e', 'f']
 const oddNumbers = [1, 3, 5, 7, 9];
 const evenNumbers = [2, 4, 6, 8];
 const allNumbers = oddNumbers.concat(evenNumbers);
-console.log(allNumbers);
+console.log(allNumbers); //---> [1, 3, 5, 7, 9, 2, 4, 6, 8]
