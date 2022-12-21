@@ -41,11 +41,11 @@ body {
   /* height: 100vh; */
   display: flex;
   justify-content: space-between;
-  text-align: center;
+  /* text-align: center; */
   background-color: #22d3ee;
   height: 10rem;
   align-items: center;
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
 }
 
 /* .main-body {
@@ -226,7 +226,7 @@ p {
   color: #555;
 }
 
-.header-section .sticky {
+.header-section.sticky {
   position: fixed;
   background-color: rgb(236, 254, 255, 0.95);
 }
