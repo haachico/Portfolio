@@ -226,10 +226,10 @@ p {
   color: #555;
 }
 
-.header-section.sticky {
+/* .header-section.sticky {
   position: fixed;
   background-color: rgb(236, 254, 255, 0.95);
-}
+} */
 
 .top-body {
   height: 100vh;
