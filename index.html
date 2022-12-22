@@ -10,7 +10,7 @@
   <body>
     <section class="top-body">
     <div class="header">
-    <section class="header-section container">
+    <section class="header-section">
 
       <div class="heading">
         <h2>
@@ -35,12 +35,12 @@
       </section>
     </section>
     </section>
-      <section class="feature-section">
-        <div class="technologies-container container">
+      <section class="sec feature-section">
+        <div class="sec technologies-container container">
           <h2 class="technologies">Technologies</h2>
           <p>HTML, CSS, JavaScript, React JS and Git/Github.</p>
         </div>
-        <div class="projects-container container">
+        <div class="sec projects-container container">
           <h2 class="projects">Projects</h2>
           <p>
             I have learnt that building projects is the best and most effective
@@ -52,7 +52,7 @@
             >
           </button>
         </div>
-        <div class="blogs-container container">
+        <div class="sec blogs-container container">
           <h2 class="blogs">Blogs</h2>
           <p>
             I think writting and sharing blogs is also one of the important
@@ -64,7 +64,7 @@
           </p>
         </div>
       </section>
-      <section class="footer-section container">
+      <section class="sec footer-section container">
         <h2>You can connect me here.</h2>
         <ul class="social-icons">
           <li class="social-icon">
@@ -124,6 +124,32 @@
 //       })
 
 
+//reveal sections
+const allSections = document.querySelectorAll(".sec")
+
+const revealSection = function (entries, observer) {
+
+const[entry] = entries;
+console.log(entry);
+if(!entry.isIntersecting) return;
+
+entry.target.classList.remove('section-hidden')
+observer.unobserve(entry.target)
+}
+
+
+
+const sectionObserver = new IntersectionObserver(revealSection, {
+  root: null,
+  threshold: 0.15,
+}
+)
+
+allSections.forEach(function(section) {
+  sectionObserver.observe(section)
+section.classList.add('section-hidden')
+
+}) 
 
     </script>
   </body>
