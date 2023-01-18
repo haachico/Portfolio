@@ -155,3 +155,23 @@ h1 {
 .readmore-btn a {
   color: black;
 }
+
+.social-icons {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  justify-content: center; /*Why margin auto not working here like it worked in the button? */
+  cursor: pointer;
+}
+
+.social-icon--btn {
+  transition: all 0.5s linear;
+}
+.social-icon--btn:hover {
+  padding: 0 20px;
+}
+
+.social-icon--text a {
+  text-decoration: none;
+  color: #555;
+}

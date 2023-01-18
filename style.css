@@ -212,6 +212,18 @@ p {
   cursor: pointer;
 }
 
+.social-icon--btn {
+  transition: all 0.5s linear;
+}
+.social-icon--btn:hover {
+  padding: 0 20px;
+}
+
+.social-icon--text a {
+  text-decoration: none;
+  color: #555;
+}
+
 .footer-section {
   /* height: 20%; */
   text-align: center;
@@ -245,4 +257,13 @@ p {
 .section-hidden {
   opacity: 0;
   transform: translateY(8rem);
+}
+
+@media (max-width: 56em) {
+  .hero-text {
+    font-size: 4rem;
+  }
+  .container {
+    padding: 0rem 1rem;
+  }
 }
